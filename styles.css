@@ -1,4 +1,10 @@
 :root {
+  --grey-1: #7a7a7a;
+  --charcoal: #36454f;
+  --navajo: --#ffdead;
+
+  --color: #000000;
+
   --font-size: 14px;
   --background: #fff;
   --foreground: #3b3b3b;
@@ -309,17 +315,6 @@ body {
   font-weight: var(--font-weight-large);
 }
 
-.me-desc-section ul {
-  padding-left: 2rem;
-  margin: 1.5rem 0;
-}
-
-.me-desc-section li {
-  line-height: 1.8;
-  margin-bottom: 1rem;
-  color: var(--foreground);
-}
-
 .me-desc-section li strong {
   color: var(--blue-800);
   font-weight: var(--font-weight-large);
@@ -379,12 +374,6 @@ body {
   background: transparent;
   color: var(--blue-800);
   transition: all 0.3s ease;
-}
-
-.contact-a {
-  border: 1px solid var(--muted-foreground);
-  color: var(--accent-foreground);
-  background-color: transparent;
 }
 
 .contact-a:hover {
@@ -512,7 +501,8 @@ body {
 }
 
 .goals-list li::marker,
-.hobbies-list li::marker {
+.hobbies-list li::marker,
+.me-desc-section li::marker {
   color: var(--blue-600);
   font-weight: var(--font-weight-large);
   font-size: 1.2em;

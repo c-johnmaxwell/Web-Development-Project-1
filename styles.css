@@ -359,13 +359,11 @@ body {
   text-align: center;
 }
 
-.desc-box a,
-.proj-btn {
+.desc-box a {
   text-decoration: none;
 }
 
-.view-a,
-.proj-btn {
+.view-a {
   background-color: var(--accent-foreground);
   color: var(--background);
 }
@@ -373,13 +371,11 @@ body {
 .view-a:hover {
   background: transparent;
   color: var(--blue-800);
-  transition: all 0.3s ease;
 }
 
 .contact-a:hover {
   background-color: var(--accent-foreground);
   color: var(--background);
-  transition: all 0.3s ease;
 }
 
 .view-a,
@@ -388,6 +384,7 @@ body {
   text-transform: capitalize;
   font-weight: var(--font-weight-medium);
   cursor: pointer;
+  transition: all 0.8s ease;
 }
 
 .view-a,
@@ -396,7 +393,7 @@ body {
   border-radius: .5rem;
 }
 
-.contact-icons {
+.contact-icon {
   width: 1.5rem;
   height: 1.5rem;
 }
@@ -419,7 +416,7 @@ body {
   cursor: pointer;
   width: 1.3rem;
   height: 1.3rem;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease-in-out;
 }
 
 .contact-icon:hover {
